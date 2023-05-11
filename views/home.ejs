@@ -1,0 +1,27 @@
+<!-- Importing stylesheet -->
+<link rel="stylesheet" href="./css/home.css">
+<script src="https://kit.fontawesome.com/d42a0e31b8.js" crossorigin="anonymous"></script>
+
+<!-- Form For Taking Habit List -->
+<div>
+    <form class="habit-form" action="/add-habit" method="POST">
+        <input type="text" name="habit_name" class="habit-details-input" placeholder="Build Your  Better Habits" required>
+        <button class="button" type="submit"><i class="fa-solid fa-circle-plus" style="font-size: 1.5rem;"></i></i></button>
+    </form>
+</div>
+
+<!-- Rendering habits -->
+<div class="render-habits">
+    <ul class="list-item">
+        <% for (const it of habit_list){ %>
+        <li onclick="location.href='/view-habit/?id=<%=it._id%>'" >
+            <div class="habit"> <i class="fa-sharp fa-solid fa-person-walking" style="color: black;"></i></i> <%=it.habit_name%></div>
+            <div class="delete">
+                <a href="/delete-habit/?id=<%=it._id%>">
+                    <i class="fa-solid fa-trash" style="color: red;"></i>
+                </a>
+            </div>
+        </li>
+        <% } %> 
+    </ul>
+</div>
