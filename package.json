@@ -17,10 +17,10 @@
     "Nodejs",
     "MongoDB"
   ],
-  "author": "Yishnu Pramanik",
+  "author": "Ravindra Reddy",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yishnu96/Habit-Tracker/issues"
+    "url": "https://github.com/ravindrareddy12/Habit-Tracker-skillTest/issues"
   },
   "homepage": "https://github.com/yishnu96/Habit-Tracker#readme",
   "dependencies": {
