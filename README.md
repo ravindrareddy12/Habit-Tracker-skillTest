@@ -4,13 +4,7 @@ Then try this amazing app Habit Tracker
 
 A basic Habit Tracking System. Tech Stack : HTML, CSS, JS, Node.js
 
-### Home :
 
-![alt text](home.png)
-
-### Habit :
-
-![alt text](rotine.png)
 
 ## Technology Stack
 - EJS
@@ -72,4 +66,4 @@ This code follows MVC pattern and hence everything is differentiated and well ma
         |------ package-lock.json
         └------ README.md
 
-Happy Coding :)
+
